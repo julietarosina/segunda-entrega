@@ -19,6 +19,12 @@
     padding: 10px;
     margin: 10px;
 }
+
+.card {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center ;
+}
 .card1{
     position: relative;
   display: flex;
@@ -29,7 +35,9 @@
   background-clip: border-box;
   border: 2px solid black ;
   border-radius: 0.25rem;
+  margin-bottom: 10px;
 }
+
 
 .subtitulo{
     font-weight: bold;
@@ -40,5 +48,30 @@ h3{
     margin: 10px;
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
+.auto{
+    padding: 10px;
+    margin: 10px;
+}
+
+.sucursales{
+    padding: 10px;
+}
+
+.servicios{
+    padding: 10px;
+    padding-left: 300px;
+}
+.contacto{
+    padding: 10px;
+}
+
+.promImagen {width: 300px;
+    height: 300px;
+    margin:40px;}  
     
